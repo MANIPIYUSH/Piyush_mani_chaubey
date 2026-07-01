@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manipiyush.github.io/Piyush_mani_chaubey/sitemap.xml
