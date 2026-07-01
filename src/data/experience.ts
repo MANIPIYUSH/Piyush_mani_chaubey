@@ -1,0 +1,55 @@
+import type { Experience } from '@/types'
+
+export const experiences: Experience[] = [
+  {
+    id: 'avija',
+    role: 'Frontend Engineer',
+    company: 'Avija Digital',
+    duration: '2023 — Present',
+    location: 'Remote',
+    technologies: [
+      'React',
+      'Redux Toolkit',
+      'TypeScript',
+      'Vite',
+      'Tailwind CSS',
+      'PayPal',
+      'Razorpay',
+    ],
+    achievements: [
+      'Built the frontend of a production B2B SaaS platform from scratch, serving multiple tenants with white-label branding.',
+      'Architected 70+ routes across dashboards, CRM modules, payment flows, and marketing tools.',
+      'Implemented multi-tenant state management with 50+ Redux modules for scalable data flows.',
+      'Integrated PayPal and Razorpay payment gateways with subscription and one-time billing flows.',
+      'Optimized bundle size and route-level code splitting, reducing initial load time by 40%.',
+    ],
+  },
+  {
+    id: 'consolebit',
+    role: 'Frontend Developer',
+    company: 'Consolebit Technologies',
+    duration: '2022 — 2023',
+    location: 'On-site',
+    technologies: ['React', 'JavaScript', 'Redux', 'Material UI', 'REST APIs', 'Axios'],
+    achievements: [
+      'Developed responsive web applications for enterprise clients with complex data visualization needs.',
+      'Built reusable component libraries that reduced development time across multiple projects.',
+      'Collaborated with backend teams to design API contracts and implement efficient data fetching patterns.',
+      'Improved application performance through memoization, lazy loading, and optimized re-renders.',
+    ],
+  },
+  {
+    id: 'pepcoding',
+    role: 'Frontend Developer & Teaching Assistant',
+    company: 'PepCoding',
+    duration: '2021 — 2022',
+    location: 'On-site',
+    technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'MongoDB'],
+    achievements: [
+      'Mentored 100+ students in modern frontend development practices and React fundamentals.',
+      'Built internal tools and dashboards for course management and student progress tracking.',
+      'Developed interactive coding exercises and real-world project templates for curriculum.',
+      'Strengthened problem-solving skills by debugging complex student projects daily.',
+    ],
+  },
+]

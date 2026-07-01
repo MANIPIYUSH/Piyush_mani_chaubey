@@ -1,0 +1,53 @@
+import type { Service } from '@/types'
+
+export const services: Service[] = [
+  {
+    id: 'react-dev',
+    title: 'React Development',
+    description:
+      'Production-grade React applications with modern patterns, hooks, and component architecture built for maintainability.',
+    icon: 'code',
+  },
+  {
+    id: 'saas-dashboard',
+    title: 'SaaS Dashboard Development',
+    description:
+      'Complex multi-tenant dashboards with role-based access, real-time data, and intuitive UX for B2B products.',
+    icon: 'layout-dashboard',
+  },
+  {
+    id: 'admin-panels',
+    title: 'Admin Panels',
+    description:
+      'Feature-rich admin interfaces with data tables, filters, bulk actions, and workflow management tools.',
+    icon: 'panel-left',
+  },
+  {
+    id: 'api-integration',
+    title: 'API Integration',
+    description:
+      'Seamless REST API integration with error handling, caching strategies, and optimistic updates.',
+    icon: 'plug',
+  },
+  {
+    id: 'performance',
+    title: 'Performance Optimization',
+    description:
+      'Bundle analysis, code splitting, lazy loading, and render optimization to deliver fast user experiences.',
+    icon: 'zap',
+  },
+  {
+    id: 'ai-frontend',
+    title: 'AI Frontend Integration',
+    description:
+      'Building intuitive interfaces for AI-powered features including chat, recommendations, and smart automation.',
+    icon: 'brain',
+  },
+  {
+    id: 'responsive',
+    title: 'Responsive Web Applications',
+    description:
+      'Pixel-perfect responsive designs that work flawlessly across desktop, tablet, and mobile devices.',
+    icon: 'smartphone',
+  },
+]
