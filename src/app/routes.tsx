@@ -29,18 +29,21 @@ function withTransition(Component: React.ComponentType) {
   )
 }
 
-export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <MainLayout />,
-    children: [
-      { index: true, element: withTransition(HomePage) },
-      { path: 'about', element: withTransition(AboutPage) },
-      { path: 'projects', element: withTransition(ProjectsPage) },
-      { path: 'projects/:id', element: withTransition(CaseStudyPage) },
-      { path: 'experience', element: withTransition(ExperiencePage) },
-      { path: 'services', element: withTransition(ServicesPage) },
-      { path: 'contact', element: withTransition(ContactPage) },
-    ],
-  },
-])
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <MainLayout />,
+      children: [
+        { index: true, element: withTransition(HomePage) },
+        { path: 'about', element: withTransition(AboutPage) },
+        { path: 'projects', element: withTransition(ProjectsPage) },
+        { path: 'projects/:id', element: withTransition(CaseStudyPage) },
+        { path: 'experience', element: withTransition(ExperiencePage) },
+        { path: 'services', element: withTransition(ServicesPage) },
+        { path: 'contact', element: withTransition(ContactPage) },
+      ],
+    },
+  ],
+  { basename: import.meta.env.BASE_URL }
+)

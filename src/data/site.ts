@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
   location: 'Delhi, India',
   resumeUrl: 'https://drive.google.com/file/d/1sp2zHzkxJ4p1PgjPgpA-hYYD6WpNeK2P/view?usp=sharing',
   ogImage: '/og-image.svg',
-  url: 'https://piyush.dev',
+  url: 'https://manipiyush.github.io/Piyush_mani_chaubey',
 }
 
 export const navLinks: NavLink[] = [
